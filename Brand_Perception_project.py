@@ -31,8 +31,6 @@ plt.rcParams["figure.autolayout"] = True
 columns = ["userName", "score"]
 
 Text_2 = pd.read_csv("Dataset_1.csv", usecols=columns)
-# print("Contents in csv file:\n", Text)
 plt.plot(Text.userName, Text.score)
-# plt.savefig("Sentiment_graph.png")
 plt.show()
 
